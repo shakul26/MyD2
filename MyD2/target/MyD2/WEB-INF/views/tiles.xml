@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+ 
+<tiles-definitions>  
+  
+   <!-- Base Definition -->
+   <definition name="MyD2"
+       template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">  
+       <put-attribute name="title" value="MyD2" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/defaultHeader.jsp"/>  
+       <put-attribute name="topmenu" value="/WEB-INF/views/tiles/template/topMenu.jsp"/>  
+       
+       <put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sideMenu.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/defaultFooter.jsp" />  
+   </definition>  
+  
+     <!-- MyD2Da Definition -->
+   <definition name="MyD2Da"
+       template="/WEB-INF/views/tiles/layouts/mydaLayout.jsp">  
+       <put-attribute name="title" value="MyD2" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/defaultHeader.jsp"/>  
+       <put-attribute name="topmenu" value="/WEB-INF/views/tiles/template/topMenu.jsp"/>  
+       
+       <put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sideMenu.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="mydafooter" value="/WEB-INF/views/tiles/template/mydaFooter.jsp" />  
+   </definition>
+   
+       
+   
+  <!-- Login Definition -->
+  
+  <definition name="login-definition"
+  		template="/WEB-INF/views/tiles/layouts/loginLayout.jsp">  
+       <put-attribute name="title" value="MyD2" />  
+       <put-attribute name="body" value="" />  
+   </definition> 
+  
+  <definition name="login" extends="login-definition">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/login.jsp" />  
+   </definition>  
+  
+   <!-- Home Page -->
+   <definition name="home" extends="MyD2">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />  
+   </definition>  
+ 
+   <!-- Product Page -->
+   <definition name="products" extends="MyD2">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/products.jsp" />  
+   </definition>  
+       
+   <!-- Contact-us Page -->
+   <definition name="contactus" extends="MyD2">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/contactus.jsp" />  
+   </definition> 
+   
+   <!-- accessDenied page --> 
+   
+   <definition name="accessDenied" extends="MyD2">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/accessDenied.jsp" />  
+   </definition> 
+   
+   <!-- User Page -->
+   <definition name="user" extends="MyD2Da">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/user.jsp" /> 
+     
+   </definition> 
+   <!-- New User Page -->
+   <definition name="newuser" extends="MyD2Da">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/newuser.jsp" />  
+   </definition>  
+   <!-- New User Page -->
+   <definition name="searchcond" extends="MyD2Da">  
+       <put-attribute name="body" value="/WEB-INF/views/pages/searchcond.jsp" />  
+   </definition>  
+   
+   
+</tiles-definitions>

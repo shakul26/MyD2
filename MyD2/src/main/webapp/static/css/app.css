@@ -1,0 +1,271 @@
+html{
+	background-color:#2F2F2F;
+}
+
+body{
+	height: 100%;
+	background-color:rgb(245, 245, 245);
+	background-color:#ffffff;
+}
+
+.login_box {
+		background-color :grey;
+		width: 70%;
+		height: 90%;
+		padding-left: 18%;
+		padding-right: 15%;
+		
+}
+.panel-header-size{
+  padding-top: 2px;
+}
+
+#header {
+    margin-left:0%;
+    margin-right:0%;
+    top: 0px;
+    width: 195%;
+	height: 9%;
+	position: fixed;
+	font-family: 'bgMed',arial,helvetica,sans-serif;
+    font-size: 0.6em;
+    color: #400000;
+    z-index: 15;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    
+    padding-top:20px;
+    
+}
+
+
+#footer {
+	margin-left:0%;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+	height: 40%;
+	position: fixed;
+	font-family: 'bgMed',arial,helvetica,sans-serif;
+    font-size: 0.6em;
+    color: #fff;
+    z-index: 15;
+    text-transform: uppercase;
+    background-color:#ffffff;
+	padding-top:20px;   
+    text-align:center;
+    border-top: thick;
+}
+
+#mydafooter {
+	margin-left:0%;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+	height: 10%;
+	position: fixed;
+	font-family: 'bgMed',arial,helvetica,sans-serif;
+    font-size: 0.6em;
+    color: #fff;
+    z-index: 15;
+    text-transform: uppercase;
+    background-color:#ffffff;
+	padding-top:20px;   
+    text-align:center;
+    border-top: thick;
+}
+
+
+.topmenubar{
+	width: 100%;
+	margin-left:0%;
+    margin-right:0%;
+    
+}
+
+#sidemenu {
+    width: 20%;
+    background-color:#ffffff;
+    height: 40%;
+    margin-bottom:10%;
+    overflow: auto;
+    float: left;
+    z-index: 20;
+    position: fixed;
+    
+    left: 0px;
+
+}
+
+
+.logo{
+	float:left;
+}
+
+#site-content {
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    z-index: 20;
+    position: fixed;
+    min-height: 600px;
+    margin-top:1%;
+    margin-bottom:10%;
+    margin-left:20%;
+    padding-left:10px;
+}
+
+
+ 
+.vertical-menu {
+ width: 200px;	
+}   
+
+.vertical-menu a {
+	background-color: #4682B4;
+	color: white;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.vertical-menu a:HOVER {
+	
+	background-color: yellow;
+	text-decoration: none;
+}
+
+.vertical-menu-dropdown {
+	background-color: #4682B4;
+	color: white;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	
+}
+.vertical-menu-dropdown a li:HOVER{
+	background-color: yellow;
+	text-decoration: none;
+}
+
+.btn-group-ver a {
+    background-color: #4682B4; /* steel blue background */
+    border: 1px solid #4682B4; /* steel blue border */
+    color: white; /* White text */
+    padding: 5px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 30%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    text-decoration: none;
+}
+
+
+.btn-group-ver a:HOVER{
+	color:black;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.logout-btn{
+	padding-right: 50%;
+}
+.logout-btn a{ 
+	background-color: black;
+	color:white;
+	text-align: right;
+	text-decoration: none;
+	padding: 12px;
+}
+.logout-btn a:HOVER {
+	text-decoration: none;
+	color: white;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	text-decoration: none;
+	}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: yellow;
+    color: black;
+}
+
+
+ .ContextItem
+        {	
+            background-color:White;
+            color:Black;
+            font-weight:normal;
+            
+            }
+     .ContextItem:hover 
+       {
+            background-color:#4682B4;
+            color:White;
+            font-weight:bold;            
+        }
+       .detailItem
+       {
+           background:transparant;
+           
+       }
+       .detailItem:hover
+       {
+           background-color:#FEE378;
+           
+           font-weight:bold;
+           cursor:default;
+       }
+
+
+
+/*
+.context-container {
+	height: 5%;
+}
+.context-menu {
+	width: 200px;
+	height: auto;
+	box-shadow: 0 0 20px 0 #ccc;
+	position: absolute;
+	display: none;
+}
+.context-menu ul{
+	list-style: none;
+	padding: 5px 0px 5px 0px;
+}
+.context-menu ul li{
+	padding: 10px 5px 10px 5px;
+	border-left: 4px solid;
+	cursor: pointer;
+}
+.context-menu ul li:HOVER {
+	color: white;
+	background: #4682B4;
+	border-left: 4px solid #666;
+}
+*/
+
+
